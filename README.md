@@ -1,5 +1,19 @@
 # react-contenteditable-b
 
-A simple starter for TypeScript packages, easy to be published via npm.
+基于react的h5 contenteditable属性封装的组件
 
-Scripts can be found in package.json scripts.
+# Installation
+
+```
+  npm install react-contenteditable-b --save
+```
+
+# Usage
+
+```
+  import Contenteditable from 'react-contenteditable-b';
+  <Contenteditable
+    initHtml='<span>this is a contenteditabel el</span>'
+    onChange={(e, innerHtml)=>console.log(e, innerHtml)}
+  />
+```

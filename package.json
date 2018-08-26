@@ -1,6 +1,6 @@
 {
   "name": "react-contenteditable-b",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "基于react的h5 contentEditable",
   "main": "lib/index.js",
   "module": "es/index.js",
@@ -24,7 +24,7 @@
     "type": "git",
     "url": "https://github.com/binnear/react-contenteditable-b.git"
   },
-  "keywords": ["contentEditable"],
+  "keywords": ["react","h5","contentEditable"],
   "author": "binnear",
   "license": "MIT",
   "bugs": {
